@@ -1,0 +1,12 @@
+
+/**
+ * Note item
+ */
+.sk-admin-builder-item-note {
+    margin: 30px 0px 20px 0px;
+    padding: 30px 30px;
+    line-height: 1.5;
+    border-radius: 4px;
+    font-style: italic;
+    font-size: 1.1em;
+}

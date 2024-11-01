@@ -1,0 +1,19 @@
+/**
+ * Content item
+ */
+.sk-admin-builder-item-content {
+    margin: 10px 0px 10px 0px;
+    padding: 0px 15px;
+    line-height: 1.5;
+}
+.sk-admin-builder-item-content p {
+}
+.sk-admin-builder-item-content ul {
+    list-style-type: disc;
+}
+.sk-admin-builder-item-content ul ul {
+    list-style-type: circle;
+}
+.sk-admin-builder-item-content ul li {
+    margin: 0px 0px 0px 15px;
+}

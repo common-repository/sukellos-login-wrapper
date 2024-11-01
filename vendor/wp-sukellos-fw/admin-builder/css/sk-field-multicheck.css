@@ -1,0 +1,14 @@
+/**
+ * Multicheck field
+ */
+
+/**
+ * Field descriptions
+ **/
+.sk-admin-builder-multicheck p.description {
+    margin-bottom: 8px;
+}
+.sk-admin-builder-multicheck fieldset label {
+    margin: 0.35em 0 0.5em!important;
+    display: inline-block;
+}

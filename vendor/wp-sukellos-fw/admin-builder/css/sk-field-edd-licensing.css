@@ -1,0 +1,9 @@
+/**
+ * EDD Licensing field
+ */
+.sk-admin-builder-grid-item p.description.status-valid {
+    color: #00a32a;
+}
+.sk-admin-builder-grid-item p.description.status-invalid {
+    color: #d63638;
+}

@@ -1,0 +1,287 @@
+@CHARSET "UTF-8";
+
+/**
+ * Header section
+ **/
+#wp_sukellos_fw_admin_builder .sk-admin-builder-header-wrapper,
+#wp_sukellos_fw_licenses .sk-admin-builder-header-wrapper,
+#wp_sukellos_fw_tools .sk-admin-builder-header-wrapper,
+#wp-sukellos-fw_admin_builder .sk-admin-builder-header-wrapper,
+#wp_sukellos_fw_dashboard .sk-admin-builder-header-wrapper {
+	display: block;
+	max-width: 1200px;
+	margin-top: 20px;
+	background-color: #fff;
+
+	padding: 20px 50px;
+	border-radius: 6px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}
+#wp_sukellos_fw_admin_builder .sk-admin-builder-header-wrapper .sk-admin-builder-header,
+#wp_sukellos_fw_licenses .sk-admin-builder-header-wrapper .sk-admin-builder-header,
+#wp_sukellos_fw_tools .sk-admin-builder-header-wrapper .sk-admin-builder-header,
+#wp-sukellos-fw_admin_builder .sk-admin-builder-header-wrapper .sk-admin-builder-header,
+#wp_sukellos_fw_dashboard .sk-admin-builder-header-wrapper .sk-admin-builder-header {
+	padding: 30px 30px 50px 30px;
+	margin-top: 0px;
+	border-radius: 0px;
+	background: #592b02 url(../img/background-slider-1920.jpg) center center;
+	background-size: cover;
+	background-position: inherit;
+}
+#wp_sukellos_fw_admin_builder .sk-admin-builder-header-wrapper .sk-admin-builder-header h1,
+#wp_sukellos_fw_licenses .sk-admin-builder-header-wrapper .sk-admin-builder-header h1,
+#wp_sukellos_fw_tools .sk-admin-builder-header-wrapper .sk-admin-builder-header h1,
+#wp-sukellos-fw_admin_builder .sk-admin-builder-header-wrapper .sk-admin-builder-header h1,
+#wp_sukellos_fw_dashboard .sk-admin-builder-header-wrapper .sk-admin-builder-header h1 {
+	margin: 0px;
+	font-size: 48px;
+	text-shadow: 1px 2px 3px rgb(0 0 0 / 50%);
+	line-height: 1.8em;
+	color: #fff;
+}
+#wp_sukellos_fw_admin_builder .sk-admin-builder-header-wrapper .sk-admin-builder-header p.description,
+#wp_sukellos_fw_licenses .sk-admin-builder-header-wrapper .sk-admin-builder-header p.description,
+#wp_sukellos_fw_tools .sk-admin-builder-header-wrapper .sk-admin-builder-header p.description,
+#wp-sukellos-fw_admin_builder .sk-admin-builder-header-wrapper .sk-admin-builder-header p.description,
+#wp_sukellos_fw_dashboard .sk-admin-builder-header-wrapper .sk-admin-builder-header p.description {
+	margin: 0px;
+	font-size: 21px;
+	text-shadow: 1px 2px 3px rgb(0 0 0 / 50%);
+	line-height: 1.8em;
+	color: #fff;
+}
+
+.sk-content-panel {
+	position: relative;
+	overflow: auto;
+	margin: 16px 0;
+	background: #592b02 url(../img/background-slider-1920.jpg) center center;
+	background-size: cover;
+	background-position: inherit;
+	font-size: 18px;
+	line-height: 1;
+}
+.sk-content-panel-content {
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.sk-content-panel-header {
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1500px;
+	width: 100%;
+	padding: 36px;
+	color: #fff;
+}
+.sk-content-panel-header h1,
+.sk-content-panel-header h2 {
+	color: #fff;
+	font-size: 48px;
+	text-align: center;
+	text-shadow: 1px 2px 3px rgb(0 0 0 / 50%);
+	margin: 0;
+	padding: 0;
+	line-height: 1.8em;
+}
+.sk-content-panel-header h2 {
+	font-size: 21px;
+	line-height: 1.8em;
+}
+.sk-content-panel .sk-content-panel-4columns-container,
+.sk-content-panel .sk-content-panel-3columns-container,
+.sk-content-panel .sk-content-panel-2columns-container,
+.sk-content-panel .sk-content-panel-1column-container {
+	box-sizing: border-box;
+	width: 100%;
+	clear: both;
+	display: grid;
+	z-index: 1;
+	gap: 32px;
+	padding: 30px 48px 48px 48px;
+	justify-content: space-evenly;
+	background: #fff;
+}
+.sk-content-panel .sk-content-panel-4columns-container {
+	grid-template-columns: 22% 22% 22% 22%;
+}
+.sk-content-panel .sk-content-panel-3columns-container {
+	grid-template-columns: 30% 30% 30%;
+}
+.sk-content-panel .sk-content-panel-2columns-container {
+	grid-template-columns: 45% 45%;
+}
+.sk-content-panel .sk-content-panel-1column-container {
+	grid-template-columns: repeat(1,1fr);
+	align-self: flex-end;
+}
+.sk-content-panel-column .sk-content-panel-column-content h3 {
+	margin: 1% 0px 0px 0px;
+}
+.sk-content-panel-column .sk-content-panel-2columns-container.header {
+	grid-template-columns: min-content 1fr;
+	padding: 8px;
+	gap: 24px;
+	height: 50px;
+	margin-bottom: 28px;
+}
+.sk-content-panel-column .sk-content-panel-2columns-container.header .sk-content-panel-column-content {
+	text-align: left;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.sk-content-panel-column .sk-content-panel-column-content.body p {
+	text-align: justify;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	margin-top: 10px;
+	text-wrap: wrap;
+}
+.sk-content-panel-column .sk-content-panel-column-content.body p strong {
+	font-weight: bolder;
+}
+.sk-content-panel .sk-content-panel-1column-container.discover {
+	grid-template-columns: repeat(1,1fr);
+	align-self: flex-end;
+	padding: 48px;
+	background-color: transparent;
+	text-align: center;
+}
+.sk-content-panel a.button {
+	border-radius: 15px 15px 15px 15px;
+	background-color: #bf935e;
+	padding: 8px 14px;
+	text-transform: uppercase;
+	transition: all .2s;
+	font-size: 14px;
+	color: #FFF;
+	border-width: 0;
+}
+.sk-content-panel .sk-content-panel-1column-container.discover a.button {
+	padding: 13px 29px;
+}
+.sk-content-panel a.button:focus,
+.sk-content-panel a.button:hover {
+	border-radius: 15px 15px 15px 15px;
+	background-color: #592b02;
+	padding: 8px 14px;
+	text-transform: uppercase;
+	transition: all .2s;
+	font-size: 14px;
+	color: #FFF;
+	border-width: 0;
+	box-shadow: none;
+}
+.sk-content-panel .sk-content-panel-1column-container.discover a.button:focus,
+.sk-content-panel .sk-content-panel-1column-container.discover a.button:hover {
+	padding: 13px 29px;
+}
+.sk-content-panel-column {
+	width: 100%;
+	/*max-width: 460px;*/
+}
+.sk-content-panel-icon {
+	height: 40px;
+	width: 40px;
+	padding-top: 12%;
+	border-radius: 100%;
+	font-size: 40px;
+}
+.dashicons-admin-site {
+	content: "\f319";
+}
+.dashicons-admin-settings {
+	content: "\f108";
+}
+.dashicons-controls-forward {
+	content: "\f519";
+}
+.dashicons-welcome-learn-more {
+	content: "\f118";
+}
+.dashicons-palmtree {
+	content: "\f527";
+}
+.dashicons-editor-expand {
+	content: "\f211";
+}
+.dashicons-saved {
+	content: "\f15e";
+}
+.dashicons-hammer {
+	content: "\f308";
+}
+/** Addons **/
+.sk-content-panel .addons {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 0px;
+}
+.sk-content-panel-column.addon {
+	width: 100%;
+	display: block;
+	background-color: #ffffff;
+	border-radius: 6px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.sk-content-panel-column.addon .sk-content-panel-column-content.header {
+	background-color: #592b02;
+	padding: 20px 6px 20px 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	background: #592b02 url(../img/background-slider-772.jpg) center center;
+	background-size: cover;
+	background-position: center center;
+}
+.sk-content-panel-column.addon .sk-content-panel-column-content.header h3 {
+	font-size: 21px;
+	text-shadow: 1px 2px 3px rgb(0 0 0 / 50%);
+	line-height: 1.8em;
+	color: #fff;
+}
+.sk-content-panel-column.addon .sk-content-panel-column-content.body {
+	padding: 10px 20px 10px 20px;
+}
+.sk-content-panel-column.addon .sk-content-panel-column-content.footer {
+	padding: 10px 20px 20px 20px;
+}
+.sk-content-panel a.button {
+	border-radius: 15px 15px 15px 15px;
+	background-color: #bf935e;
+	padding: 8px 14px;
+	text-transform: uppercase;
+	transition: all .2s;
+	font-size: 14px;
+	color: #FFF;
+	border-width: 0;
+}
+#wp_sukellos_fw_dashboard .intro {
+	padding: 30px 28px 0px 28px;
+}
+#wp_sukellos_fw_dashboard .sk-content-panel-column.addon .sk-content-panel-column-content.footer .sk-content-panel-2columns-container.plugin_active {
+	grid-template-columns: min-content auto;
+	gap: 2px;
+	text-align: center;
+	justify-content: center;
+	padding: 0;
+	color: #27a827;
+}
+#wp_sukellos_fw_dashboard .sk-content-panel-column.addon .sk-content-panel-column-content.footer .sk-content-panel-icon {
+	height: 40px;
+	width: 40px;
+	padding-top: 0;
+	border-radius: 100%;
+	font-size: 40px;
+}
+#wp_sukellos_fw_dashboard .sk-content-panel-column.addon .sk-content-panel-column-content.footer .sk-content-panel-2columns-container.plugin_active .sk-content-panel-column-content {
+	line-height: 40px;
+	font-size: 16px;
+}

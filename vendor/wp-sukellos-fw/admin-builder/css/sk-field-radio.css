@@ -1,0 +1,64 @@
+/**
+ * Radio field
+ */
+
+/**
+ * Field descriptions
+ **/
+.sk-admin-builder-radio p.description {
+    margin-bottom: 8px;
+}
+.sk-admin-builder-radio fieldset label {
+    margin: 0.35em 0 0.5em!important;
+    display: inline-block;
+}
+
+
+/* 2.9 - radio-palette */
+.sk-admin-builder-radio-palette span {
+    display: inline-block;
+    height: 40px;
+}
+
+.sk-admin-builder-radio-palette span span {
+    width: 15px;
+}
+
+.sk-admin-builder-radio-palette > label > span {
+    padding: 2px;
+    border: 1px solid #ddd;
+}
+
+.sk-admin-builder-radio-palette input[type=radio] {
+    vertical-align: top;
+    margin-top: 17px;
+}
+
+.sk-admin-builder-radio-palette label {
+    margin: 0 30px 10px 0;
+    display: inline-block;
+}
+
+.sk-admin-builder-radio-palette label:first-child {
+    margin-left: 0;
+}
+
+.sk-admin-builder-ajax-button .button + .button {
+    margin-left: 5px;
+}
+
+/* 2.10 - radio images */
+.sk-admin-builder-radio-image label {
+    white-space: nowrap;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.sk-admin-builder-radio-image input[type=radio] {
+    margin-top: 0;
+}
+
+.sk-admin-builder-radio-image img {
+    vertical-align: middle;
+}
